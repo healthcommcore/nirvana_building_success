@@ -1,0 +1,187 @@
+/** These are responsive overrides for Building Sucess **/
+
+@media (max-width: 800px) {
+  #header-full {
+    #branding {
+      min-height: 80px;
+    }
+    #header-container,
+    #header-widget-area {
+      width: 50%;
+    }
+    #header-container {
+      float: left;
+      > div {
+        margin-top: 0;
+      }
+    }
+    #header-widget-area {
+      float: right;
+    }
+  }
+  #main {
+    .widget_menu_sl {
+      display: none;
+    }
+    #frontpage {
+      .nivo-caption {
+        right: 0;
+        left: 0;
+        top: 30px;
+        bottom: 0;
+        margin: 0 auto;
+        h2 {
+          font-size: 3.0em;
+        }
+      }
+      .entry-content {
+        .home-feature {
+          h1 {
+            font-size: 1.9em !important;
+          }
+          p {
+            font-size: 1.05em;
+          }
+        }
+        #pp-texttop, 
+        #pp-textmiddle, 
+        #pp-textbottom, 
+        #front-columns-box, 
+        .presentation-page #content {
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+        .practical-strategies.container {
+          width: 100%;
+        }
+        .strategy-button-container {
+          width: 641px;
+          .building-button {
+            width: 170px;
+            font-size: 0.9em;
+          }
+          .building-button:nth-child(2), 
+          .building-button:nth-child(5) {
+            margin-left: 40px;
+            margin-right: 40px;
+          }
+        }
+      }
+    }
+  }
+  #footer {
+    .footertwo .widget-area {
+      width: 49%;
+    }
+  }
+}
+
+@media (max-width: 640px) {
+  #main {
+    #frontpage {
+      .entry-content {
+        .strategy-button-container {
+          width: 100%;
+          padding: 0 3%;
+          .building-button {
+            width: 27%;
+            font-size: 0.9em;
+          }
+          .building-button:nth-child(2), 
+          .building-button:nth-child(5) {
+            margin-left: 6%;
+            margin-right: 6%;
+          }
+          .building-button.three-line {
+            padding: 11px 0 12px;
+          }
+        }
+      }
+      .nivo-caption {
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: 0 auto;
+        h2 {
+          font-size: 1.8em;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+  .entry-content {
+    .building-quote {
+      width: 140px;
+    }
+  }
+  #footer {
+    .footertwo {
+      .widget-area {
+        width: 100%;
+        float: none;
+        text-align: center;
+      }
+    }
+    #fourth .xoxo {
+      float: none !important;
+      display: inline-block;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #header-full {
+    #branding {
+    }
+    #header-container,
+    #header-widget-area {
+      float: none;
+      width: 100%;
+    }
+    #header-container {
+      #logo img {
+        max-width: none;
+        max-height: none;
+        width: 100%;
+      }
+    }
+    #header-widget-area {
+      .searchform {
+        max-width: none;
+      }
+      .widget_search {
+        padding: 0 20px;
+        margin: 10px 0;
+      }
+    }
+  }
+  #main {
+    #frontpage {
+      .entry-content {
+        .strategy-button-container {
+          width: 50%;
+          .building-button {
+            display: block;
+            width: 100%;
+            font-size: 0.9em;
+            float: none;
+          }
+          .building-button,
+          .building-button:nth-child(2), 
+          .building-button:nth-child(5) {
+            margin-left: auto;
+            margin-right: auto;
+          }
+          .building-button.three-line {
+            padding: 11px 0 12px;
+          }
+        }
+      }
+      .nivo-caption {
+        padding: 10px 0 0 0;
+      }
+    }
+  }
+}
+
